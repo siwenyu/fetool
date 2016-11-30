@@ -19,10 +19,9 @@ height 默认300 图片高度。取值范围：(0, 1024]。Scale=2,取值范围�
 5. zoom：地图级别。高清图范围[3, 18]；低清图范围[3,19]
 6. &copyright=1 去掉百度logo
 7. &scale=2 默认为null,返回图片大小会根据此标志调整。取值范围为1或2：
-
-	1表示返回的图片大小为size= width * height;
-	2表示返回图片为(width*2)*(height *2)，且zoom加1
-	注：如果zoom为最大级别，则返回图片为（width*2）		*（height*2），zoom不变。
+1表示返回的图片大小为size= width * height;
+2表示返回图片为(width*2)*(height *2)，且zoom加1
+注：如果zoom为最大级别，则返回图片为（width*2）		minutes*（height*2），zoom不变。
 	
 其他参数：
 <img src="https://raw.githubusercontent.com/siwenyu/img/master/%E9%9D%99%E6%80%81%E5%9C%B0%E5%9B%BEAPI.png">
